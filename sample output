@@ -1,0 +1,16 @@
+Epoch 10/10
+25/25 [==============================] - 1s 18ms/step - loss: 0.1165 - accuracy: 0.9612 - val_loss: 0.0952 - val_accuracy: 0.9750
+Test Accuracy: 97.50%
+Confusion Matrix:
+ [[95  1]
+  [ 4 100]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.96      0.99      0.97        96
+           1       0.99      0.96      0.98       104
+
+    accuracy                           0.98       200
+   macro avg       0.98      0.98      0.98       200
+weighted avg       0.98      0.98      0.98       200
